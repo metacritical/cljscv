@@ -5,5 +5,5 @@
 (-> 
  (.getElementById js/document "app")
  (.remove))
- (.log js/alert "HI")
+ (.log js/console "Hey Welcome to metacritical's cv.")
 
