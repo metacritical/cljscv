@@ -4,6 +4,6 @@
 
 (-> 
  (.getElementById js/document "app")
- (.remove)
- (.log js/alert "HI"))
+ (.remove))
+ (.log js/alert "HI")
 
