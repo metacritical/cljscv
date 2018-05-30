@@ -1,4 +1,4 @@
 {:paths ["."]
  :deps {org.clojure/clojurescript {:mvn/version "1.10.238"}
-        hiccup {:mvn/version "1.0.5"}}}
+        hiccups {:mvn/version "0.3.0"}}}
 
