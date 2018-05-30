@@ -1,5 +1,6 @@
 (ns resume
-  (:require [hiccup]))
+  (:require-macros [hiccups.core :as hiccups :refer [html]])
+  (:require [hiccups.runtime :as hiccupsrt]))
 
 
 (.remove (.getElementById js/document "app"))
