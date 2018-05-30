@@ -1,5 +1,5 @@
 (ns resume
-  (:require [hiccup "1.0.5"]))
+  (:require [hiccup]))
 
 
 (.remove (.getElementById js/document "app"))
