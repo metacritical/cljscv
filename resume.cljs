@@ -1,4 +1,4 @@
-(ns resume
+(ns metacritical.cv
   (:require-macros [hiccups.core :as hiccups :refer [html]])
   (:require [hiccups.runtime :as hiccupsrt]))
 
