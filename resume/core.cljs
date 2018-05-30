@@ -2,6 +2,8 @@
   (:require-macros [hiccups.core :as hiccups :refer [html]])
   (:require [hiccups.runtime :as hiccupsrt]))
 
+(-> 
+ (.getElementById js/document "app")
+ (.remove)
+ (.log js/alert "HI"))
 
-(.remove (.getElementById js/document "app"))
-(.log js/console "HI")
