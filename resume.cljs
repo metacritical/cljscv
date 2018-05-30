@@ -1,2 +1,2 @@
 (.remove (.getElementById js/document "app"))
-(js/alert "HI")
+(.log js/console "HI")
