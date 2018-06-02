@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #1e49a2;
+  padding: 20px 10px;
+  border-bottom: 8px;
+  border-bottom-color:#63b132;
+  border-bottom-style: solid;
+}
+
+.header h2.logo {
+  font-size: 25px;
+  font-weight: bold;
+  color: ghostwhite;
+  margin-bottom: -10px;
+}
+
+.header p {
+  color: ghostwhite;
+}
+
+.header-right {
+  float: right;
+}
+
+
+@media screen and (max-width: 500px) {
+  .header {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+}
