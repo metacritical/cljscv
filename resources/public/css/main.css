@@ -4,12 +4,15 @@ body {
 }
 
 .header {
+  width:100%
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
   overflow: hidden;
   background-color: #1e49a2;
   padding: 20px 10px;
-  border-bottom: 8px;
-  border-bottom-color:#63b132;
-  border-bottom-style: solid;
+  border-bottom: 8px #63b132 solid;
 }
 
 .header h2.logo {
@@ -29,6 +32,10 @@ body {
 
 .header-right img {
   border-radius: 50%;
+  width: 60%;
+  height: 60%;
+  display: block;
+  margin-top: -90px;
 }
 
 @media screen and (max-width: 500px) {
@@ -40,5 +47,11 @@ body {
 
   .header-right {
     float: none;
+  }
+
+  .header-right img {
+    float: right;
+    width: 30%;
+    height: 30%;
   }
 }

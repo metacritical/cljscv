@@ -1,0 +1,3 @@
+^{:watch-dirs ["src" "resources/public/hiccup"]
+  :css-dirs ["resources/public/css"]}
+{:main resume.core}
