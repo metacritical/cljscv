@@ -10,16 +10,18 @@ body {
   left: 0;
   z-index: 999;
   overflow: hidden;
-  background-color: #1e49a2;
-  padding: 20px 10px;
+  padding: 10px 10px;
   border-bottom: 8px #63b132 solid;
+  background: linear-gradient(to right, #2452a1,  #0f2242);
 }
 
 .header h2.logo {
   font-size: 25px;
-  font-weight: bold;
+  font-weight: 300;
   color: ghostwhite;
+  line-height: 28px;
   margin-bottom: -10px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .header p {
