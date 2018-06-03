@@ -1,1 +1,2 @@
-clj -m figwheel.main -i resume/core.cljs -r
+# To start locally 
+clj -m figwheel.main -b dev -r
