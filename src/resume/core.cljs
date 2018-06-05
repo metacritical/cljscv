@@ -9,7 +9,7 @@
 (defn main []
   (bdom/remove-children :app)
   (console-welcome)
-  (utils/slurp "/hiccup/style-sheet.hic.edn" #(utils/append-child :head %))
-  (utils/slurp "/hiccup/header-tmpl.hic.edn" #(utils/append-child :app %)))
+  (utils/slurp "/hiccup/style-sheet.hic.edn" :head)
+  (utils/slurp "/hiccup/header-tmpl.hic.edn" :app))
 
 (.addEventListener js/window "DOMContentLoaded" (main))
