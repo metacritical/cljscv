@@ -40,6 +40,23 @@ body {
   margin-top: -90px;
 }
 
+.content {
+    margin:0 auto;
+    width:940px;
+    padding:15px;
+    border: 2px black solid;
+}
+
+.summary {
+    float: left;
+    width: 50%;
+}
+
+.info {
+    float: right;
+    width: 50%;
+}
+
 @media screen and (max-width: 500px) {
   .header {
     float: none;

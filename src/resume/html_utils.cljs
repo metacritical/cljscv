@@ -27,4 +27,3 @@
    (ev/listen xhr complt #(append-child id (xhr->html xhr)))
    (.send xhr path)))
 
-

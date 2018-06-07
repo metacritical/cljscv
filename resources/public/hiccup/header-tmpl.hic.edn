@@ -1,5 +1,6 @@
-[[:div {:class "header"}
+[[:div {:id "wrapper"}
+ [:div {:class "header"}
   [:h2 {:href "#default", :class "logo"} "Pankaj Doharey"]
-  [:p "Sr. Ruby/Go/Clojure Developer."]
+  [:p "Ruby/Go/Clojure Developer."]
   [:div {:class "header-right"}
-   [:img {:src "/img/avatar.jpg", :alt "Metacritical's profile picture"}]]]]
+   [:img {:src "/img/avatar.jpg", :alt "Metacritical's profile picture"}]]]]]

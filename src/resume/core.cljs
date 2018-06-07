@@ -10,6 +10,7 @@
   (bdom/remove-children :app)
   (console-welcome)
   (utils/slurp "/hiccup/style-sheet.hic.edn" :head)
-  (utils/slurp "/hiccup/header-tmpl.hic.edn" :app))
+  (utils/slurp "/hiccup/header-tmpl.hic.edn" :app)
+  (utils/slurp "/hiccup/body-main.hic.edn" :wrapper))
 
 (.addEventListener js/window "DOMContentLoaded" (main))
