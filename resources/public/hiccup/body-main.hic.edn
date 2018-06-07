@@ -1,0 +1,4 @@
+[[:div {:class "content"} 
+  [:div {:class "summary"} "Summary"]
+  [:div {:class "info"} "Info"]
+  [:br {:style "clear:both;"}]]]
