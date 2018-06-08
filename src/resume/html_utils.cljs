@@ -22,8 +22,7 @@
       :head (bdom/append (dom/getElementByTagNameAndClass parent) child)
       (bdom/append (dom/getElement parent) child))))
 
-(defn slurp [path id]
+(defn fetch-and-append [path id]
   (let [xhr (goog.net.XhrIo.) complt goog.net.EventType.COMPLETE]
    (ev/listen xhr complt #(append-child id (xhr->html xhr)))
    (.send xhr path)))
-

@@ -1,6 +1,0 @@
-[[:div {:id "wrapper"}
- [:div {:class "header"}
-  [:h2 {:href "#default", :class "logo"} "Pankaj Doharey"]
-  [:p "Ruby/Go/Clojure Developer."]
-  [:div {:class "header-right"}
-   [:img {:src "/img/avatar.jpg", :alt "Metacritical's profile picture"}]]]]]

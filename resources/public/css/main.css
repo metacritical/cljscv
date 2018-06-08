@@ -1,6 +1,11 @@
 body {
   margin: 0;
-  font-family: Arial;
+  font-family: 'Open Sans', sans-serif;
+  color: #6f6f6f;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 .header {
@@ -16,12 +21,26 @@ body {
 }
 
 .header h2.logo {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 300;
   color: ghostwhite;
-  line-height: 28px;
+  line-height: 22px;
   margin-bottom: -10px;
   font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 200;
+}
+
+
+h4 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 27px;
+  line-height: 25px;
+  font-weight: 200;
 }
 
 .header p {
@@ -34,27 +53,42 @@ body {
 
 .header-right img {
   border-radius: 50%;
-  width: 60%;
-  height: 60%;
+  width: 50%;
+  height: 50%;
   display: block;
-  margin-top: -90px;
+  margin-top: -80px;
 }
 
 .content {
-    margin:0 auto;
-    width:940px;
-    padding:15px;
-    border: 2px black solid;
+  margin:0 auto;
+  width:980px;
+  padding:10px;
+  /* border: 1px black solid; */
 }
 
 .summary {
-    float: left;
-    width: 50%;
+  float: left;
+  width: 65%;
+}
+
+.summary p {
+  width: 95%;
+  font-weight: 300;
 }
 
 .info {
-    float: right;
-    width: 50%;
+  float: right;
+  width: 35%;
+}
+
+.speaks p{
+  font-style: oblique;
+  font-size: 15px;
+}
+
+.timeline p {
+  font-size: 18px;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 500px) {

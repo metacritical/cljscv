@@ -1,4 +1,25 @@
-[[:div {:class "content"} 
-  [:div {:class "summary"} "Summary"]
-  [:div {:class "info"} "Info"]
-  [:br {:style "clear:both;"}]]]
+[[:div {:id "wrapper"}
+  [:div {:class "header"}
+   [:h2 {:href "#default", :class "logo"} "Pankaj Doharey"]
+   [:p "Ruby/Go/Clojure Developer."]
+   [:div {:class "header-right"}
+    [:img {:src "/img/avatar.jpg", :alt "Metacritical's profile picture"}]]]]
+
+ [:div {:class "content"}
+  [:div {:class "summary"}
+   [:h4 "Resume Summary"]
+   [:p "Programming polyglot with experience in developing and deploying
+        applications on various infrastructures with multilingual backends.
+        Seeking to leverage my skills at a forward looking organisation which
+        understands that certain class of problems are better solved
+        functionally. More specifically an organisation working in clojure."]
+   [:div {:class "timeline"}
+    [:h3 "Timeline"]
+    [:p "Independent Clojure/Ruby Developer"]]]
+
+  [:div {:class "info"}
+   [:h3 {:class "speaks"} "Speaks"
+    [:p "Clojure/Clojure(script), Ruby, Go, Scheme other."]]
+   [:h3 "Skills"]]
+
+  [:br {:style "clear:both"}]]]
