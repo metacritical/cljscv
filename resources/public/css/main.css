@@ -86,9 +86,51 @@ h4 {
   font-size: 15px;
 }
 
+
+.timeline span {
+  display: inherit;
+  font-size: 24px;
+}
+
 .timeline p {
-  font-size: 18px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+.timeline h3 {
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+span.period {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+p.job-heading {
+  display: list-item;
+  font-size: 17px;
+  font-weight: 400;
+  /* font-style: italic; */
+  margin: 0 0 5px 19px;
+}
+
+p.job-desc {
+  width: 95%;
+  margin: 0 0 5px 17px;
+  font-size: 16px;
   font-weight: 300;
+}
+
+.scale {
+  font-size: 13px;
+  display: inline;
+  margin-left: 5px;
 }
 
 @media screen and (max-width: 500px) {

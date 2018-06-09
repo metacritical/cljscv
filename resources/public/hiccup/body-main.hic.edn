@@ -14,12 +14,16 @@
         understands that certain class of problems are better solved
         functionally. More specifically an organisation working in clojure."]
    [:div {:class "timeline"}
-    [:h3 "Timeline"]
-    [:p "Independent Clojure/Ruby Developer"]]]
+    [:span {:class "fab fa-algolia"}
+     [:h3 "Timeline"]]
+    [:span {:class "period"} "Jan 2017 - present."]
+    [:p {:class "job-heading"} "Independent Clojure/Ruby Developer"]
+    [:p {:class "job-desc"} "Explain about current stuff that i am not doing"]]
+    ]]
 
   [:div {:class "info"}
    [:h3 {:class "speaks"} "Speaks"
     [:p "Clojure/Clojure(script), Ruby, Go, Scheme other."]]
-   [:h3 "Skills"]]
-
-  [:br {:style "clear:both"}]]]
+   [:h3 "Skill" 
+    [:p {:class "scale"} " Level (scale of 5)"]]]
+  [:br {:style "clear:both"}]]
