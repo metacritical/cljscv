@@ -133,6 +133,28 @@ p.job-desc {
   margin-left: 5px;
 }
 
+.social-media {
+  display: inline;
+  margin-left: 10px;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.info span{
+  display: block;
+  margin-bottom: 5px
+}
+
+.fa-twitter-square:before {
+  color: #1DA1F2;
+  font-size: 20px;
+}
+
+a {
+  color: #6f6f6f;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 500px) {
   .header {
     float: none;
