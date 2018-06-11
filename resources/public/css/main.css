@@ -150,9 +150,29 @@ p.job-desc {
   font-size: 20px;
 }
 
+.fas.fa-envelope {
+  color: orange;
+}
+
+.fab.fa-linkedin {
+  color: #0077B5;
+}
+
 a {
   color: #6f6f6f;
   text-decoration: none;
+}
+
+.skill {
+  width: 80px;
+  font-size: 15px;
+  display: inline-block;
+  margin: 5px 4px 2px 0;
+}
+
+.info span.fa-circle {
+  display: inline;
+  font-size: 10px
 }
 
 @media screen and (max-width: 500px) {
