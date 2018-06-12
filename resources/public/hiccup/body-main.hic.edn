@@ -19,7 +19,8 @@
      [:h3 "Timeline"]]
     [:span {:class "period"} "Jan 2017 - present."]
     [:p {:class "job-heading"} "Independent Ruby/Clojure Developer"]
-    [:p {:class "job-desc"} "Summary of responsibilities goes here."]
+    [:p {:class "job-desc"} "Worked on Ruby on Rails and Nodejs remote 
+        package monitoring project."]
 
     [:span {:class "period"} "Sep 2013 - Aug 2016"]
     [:p {:class "job-heading"} "Ruby on Rails Developer @ Pramati Technologies."]
