@@ -2,7 +2,7 @@
 ```sh
 # You should have clojure installed and then invoke the following command
 
-clj -Sdeps '{:deps {github-metacritical/cljscv {:git/url "https://github.com/metacritical/cljscv" :sha "2b9bd37726af3851b4b9e675e3ff76e1fd85bf6b"}}}' -m figwheel.main -co '{:main resume.core}' -r
+clj -Sdeps '{:deps {github-metacritical/cljscv {:git/url "https://github.com/metacritical/cljscv" :sha "43ffcfc9dd804803caad614924637be1d56f6951"}}}' -m figwheel.main -co '{:main resume.core}' -r
 ```
 
 Wait a few seconds it first it will open a browser and show default clojurescript 
