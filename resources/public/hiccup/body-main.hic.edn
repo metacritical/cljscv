@@ -59,6 +59,9 @@
     [:p {:class "job-heading"} "toothbrush (DSL for bash)"]
     [:p {:class "job-desc"} "github.com/metacritical/toothbrush"]
 
+    [:p {:class "job-heading"} "SCMBag (A Bag of Git SCM Shortcuts in scheme.)"]
+    [:p {:class "job-desc"} "github.com/metacritical/scmbag"]
+
     [:p {:class "job-heading"} "Mudmonk (Telnet Based Ruby Tuts in MUD Style."]
     [:p {:class "job-desc"} "github.com/metacritical/mudmonk"]
 
