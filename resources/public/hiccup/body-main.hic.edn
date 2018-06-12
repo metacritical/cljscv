@@ -18,27 +18,47 @@
     [:span {:class "fab fa-algolia"}
      [:h3 "Timeline"]]
     [:span {:class "period"} "Jan 2017 - present."]
-    [:p {:class "job-heading"} "Independent Clojure/Ruby Developer"]
+    [:p {:class "job-heading"} "Independent Ruby/Clojure Developer"]
     [:p {:class "job-desc"} "Summary of responsibilities goes here."]
 
     [:span {:class "period"} "Sep 2013 - Aug 2016"]
     [:p {:class "job-heading"} "Ruby on Rails Developer @ Pramati Technologies."]
-    [:p {:class "job-desc"} "Summary of responsibilities goes here."]
+    [:p {:class "job-desc"} "Worked on a Rails app to analyse opensource code, 
+        Worked on a social platform in nodejs, worked on a Machine learning platform
+        written in a multitude of languages including Scala, Java, Go, Nodejs, Ruby
+        and Javascript with angular in the front. Forked major open products like
+        Apache Zeppelin and Redhat Openshift to automate deployment of preconfigured
+        workflows."]
 
     [:span {:class "period"} "Feb 2012 - Aug 2013"]
     [:p {:class "job-heading"} "Web Developer @ Priya Softweb Solutions."]
-    [:p {:class "job-desc"} "Summary of responsibilities goes here."]
+    [:p {:class "job-desc"} "Worked on Ruby on Rails app used for accessing Fish 
+         sources in the world and analyse data on fish viability in seas across 
+         various world oceans helping fishermen, governments and the environment.
+         Also worked on a Indian movie review site."]
 
     [:span {:class "period"} "Jan 2009  - July 2011"]
     [:p {:class "job-heading"} "PHP Web Developer @ Fuel Networks."]
-    [:p {:class "job-desc"} "Summary of responsibilities goes here."]]]]
+    [:p {:class "job-desc"} "Developed many key solutions using PHP as the core 
+       technology, delivering certain apps in core php, Drupal sites and Zen Cart
+       based shopping cart and postals."]]
+
+   [:div {:class "timeline"}
+    [:span {:class "fab fa-github-square"}
+     [:h3 "Projects"]]
+    [:p {:class "job-heading"} "OM Tetris (Tetris Game in clojure/script)"]
+    [:p {:class "job-desc"} "github.com/metacritical/om-tetris"]
+
+    [:p {:class "job-heading"} "SCMBag - Git shortcuts in scheme."]
+    [:p {:class "job-desc"} "github.com/metacritical/scmbag"]]]]
   
 
  [:div {:class "info"}
    [:h3 {:class "speaks"} "Speaks"
-    [:p "Clojure/Clojure(script), Ruby, Go, Scheme other."]]
+    [:p "Clojure/Clojure(script), Ruby, Go, JS, Scheme ..."]]
    [:h3 "Skill" 
     [:p {:class "scale"} " Level (scale of 5)"]
+
     [:div [:p {:class "skill"} "Ruby"]
      [:span {:class "fas fa-circle"}]
      [:span {:class "fas fa-circle"}]
@@ -51,7 +71,7 @@
      [:span {:class "fas fa-circle"}]
      [:span {:class "fas fa-circle"}]
      [:span {:class "fas fa-circle"}]
-     [:span {:class "far fa-circle"}]]
+     [:span {:class "fas fa-adjust"}]]
 
      [:div [:p {:class "skill"} "Golang"]
       [:span {:class "fas fa-circle"}]
@@ -72,9 +92,7 @@
      [:span {:class "fas fa-circle"}]
      [:span {:class "fas fa-circle"}]
      [:span {:class "fas fa-circle"}]
-     [:span {:class "far fa-circle"}]]
-    
-]
+     [:span {:class "far fa-circle"}]]]
 
 
    [:h3 "Contact"]
@@ -93,6 +111,5 @@
    [:span {:class "fab fa-chrome"}
     [:a {:href "https://selfdotsend.com"}
      [:p {:class "social-media"} "selfdotsend.com"]]]]
-
  
   [:br {:style "clear:both"}]]
