@@ -46,11 +46,26 @@
    [:div {:class "timeline"}
     [:span {:class "fab fa-github-square"}
      [:h3 "Projects"]]
+
+    [:p {:class "job-heading"} "JSONRecord (JSON Document DB in ruby.)"]
+    [:p {:class "job-desc"} "github.com/metacritical/jsonrecord"]
+
     [:p {:class "job-heading"} "OM Tetris (Tetris Game in clojure/script)"]
     [:p {:class "job-desc"} "github.com/metacritical/om-tetris"]
 
-    [:p {:class "job-heading"} "SCMBag - Git shortcuts in scheme."]
-    [:p {:class "job-desc"} "github.com/metacritical/scmbag"]]]]
+    [:p {:class "job-heading"} "Esha (Io language implementation in ruby)"]
+    [:p {:class "job-desc"} "github.com/metacritical/esha"]
+
+    [:p {:class "job-heading"} "toothbrush (DSL for bash)"]
+    [:p {:class "job-desc"} "github.com/metacritical/toothbrush"]
+
+    [:p {:class "job-heading"} "Mudmonk (Telnet Based Ruby Tuts in MUD Style."]
+    [:p {:class "job-desc"} "github.com/metacritical/mudmonk"]
+
+    [:p {:class "job-heading"} "CLJCV (This resume itself is written in clojure/script)."]
+    [:p {:class "job-desc"} "github.com/metacritical/cljscv"]
+
+]]]
   
 
  [:div {:class "info"}
