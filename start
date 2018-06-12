@@ -1,2 +1,1 @@
-# To start locally 
-clj -m figwheel.main -co '{:main resume.core}' -r
+clj -m figwheel.main -co "{:main resume.core}" -c; clj -m figwheel.main -co "{:main resume.core}" -r

@@ -129,6 +129,9 @@
      [:p {:class "social-media"} "linkedin.com/in/pankaj-doharey/"]]]
    [:span {:class "fab fa-chrome"}
     [:a {:href "https://selfdotsend.com"}
-     [:p {:class "social-media"} "selfdotsend.com"]]]]
+     [:p {:class "social-media"} "selfdotsend.com"]]]
+  [:span {:class "fas fa-mobile-alt"}
+    [:a {:href "#"}
+     [:p {:class "social-media"} "+91-9726519157"]]]]
  
   [:br {:style "clear:both"}]]
