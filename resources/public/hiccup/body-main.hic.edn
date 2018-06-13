@@ -8,66 +8,79 @@
  [:div {:class "content"}
   [:div {:class "summary"}
    [:h4 "Resume Summary"]
-   [:p "Programming polyglot with experience in developing and deploying
+   [:blockquote
+    [:p "Programming polyglot with experience in developing and deploying
         applications on various infrastructures with multilingual backends.
         Seeking to leverage my skills at a forward looking organisation which
         understands that certain class of problems are better solved
-        functionally. More specifically an organisation working in clojure."]
+        functionally. More specifically an organisation working in clojure."]]
  
    [:div {:class "timeline"}
     [:span {:class "fab fa-algolia"}
      [:h3 "Timeline"]]
+    
     [:span {:class "period"} "Jan 2017 - present."]
-    [:p {:class "job-heading"} "Independent Ruby/Clojure Developer"]
-    [:p {:class "job-desc"} "Worked on Ruby on Rails and Nodejs remote 
-        package monitoring project."]
+    [:div {:class "description"}
+     [:p {:class "job-heading"} "Independent Ruby/Clojure Developer"]
+     [:p {:class "job-desc"} "Worked on Ruby on Rails and Nodejs remote 
+        package monitoring project."]]
 
     [:span {:class "period"} "Sep 2013 - Aug 2016"]
-    [:p {:class "job-heading"} "Ruby on Rails Developer @ Pramati Technologies."]
-    [:p {:class "job-desc"} "Worked on a Rails app to analyse opensource code, 
+    [:div {:class "description"}
+     [:p {:class "job-heading"} "Ruby on Rails Developer @ Pramati Technologies."]
+     [:p {:class "job-desc"} "Worked on a Rails app to analyse opensource code, 
         Worked on a social platform in nodejs, worked on a Machine learning platform
         written in a multitude of languages including Scala, Java, Go, Nodejs, Ruby
         and Javascript with angular in the front. Forked major open products like
         Apache Zeppelin and Redhat Openshift to automate deployment of preconfigured
-        workflows."]
+        workflows."]]
 
     [:span {:class "period"} "Feb 2012 - Aug 2013"]
-    [:p {:class "job-heading"} "Web Developer @ Priya Softweb Solutions."]
-    [:p {:class "job-desc"} "Worked on Ruby on Rails app used for accessing Fish 
+    [:div {:class "description"}
+     [:p {:class "job-heading"} "Web Developer @ Priya Softweb Solutions."]
+     [:p {:class "job-desc"} "Worked on Ruby on Rails app used for accessing Fish 
          sources in the world and analyse data on fish viability in seas across 
          various world oceans helping fishermen, governments and the environment.
-         Also worked on a Indian movie review site."]
+         Also worked on a Indian movie review site."]]
 
     [:span {:class "period"} "Jan 2009  - July 2011"]
-    [:p {:class "job-heading"} "PHP Web Developer @ Fuel Networks."]
-    [:p {:class "job-desc"} "Developed many key solutions using PHP as the core 
+    [:div {:class "description"}
+     [:p {:class "job-heading"} "PHP Web Developer @ Fuel Networks."]
+     [:p {:class "job-desc"} "Developed many key solutions using PHP as the core 
        technology, delivering certain apps in core php, Drupal sites and Zen Cart
-       based shopping cart and postals."]]
+       based shopping cart and postals."]]]
 
    [:div {:class "timeline"}
     [:span {:class "fab fa-github-square"}
      [:h3 "Projects"]]
 
-    [:p {:class "job-heading"} "JSONRecord (JSON Document DB in ruby.)"]
-    [:p {:class "job-desc"} "github.com/metacritical/jsonrecord"]
+    [:blockquote {:class "project-quote"}
+     [:p {:class "job-heading"} "JSONRecord (JSON Document DB in ruby.)"]
+     [:p {:class "job-desc"} "github.com/metacritical/jsonrecord"]]
 
-    [:p {:class "job-heading"} "OM Tetris (Tetris Game in clojure/script)"]
-    [:p {:class "job-desc"} "github.com/metacritical/om-tetris"]
+    [:blockquote {:class "project-quote"}
+     [:p {:class "job-heading"} "OM Tetris (Tetris Game in clojure/script)"]
+     [:p {:class "job-desc"} "github.com/metacritical/om-tetris"]]
 
-    [:p {:class "job-heading"} "Esha (Io language implementation in ruby)"]
-    [:p {:class "job-desc"} "github.com/metacritical/esha"]
+    [:blockquote {:class "project-quote"}
+     [:p {:class "job-heading"} "Esha (Io language implementation in ruby)"]
+     [:p {:class "job-desc"} "github.com/metacritical/esha"]]
 
-    [:p {:class "job-heading"} "toothbrush (DSL for bash)"]
-    [:p {:class "job-desc"} "github.com/metacritical/toothbrush"]
+    [:blockquote {:class "project-quote"}
+     [:p {:class "job-heading"} "toothbrush (DSL for bash)"]
+     [:p {:class "job-desc"} "github.com/metacritical/toothbrush"]]
 
-    [:p {:class "job-heading"} "SCMBag (A Bag of Git SCM Shortcuts in scheme.)"]
-    [:p {:class "job-desc"} "github.com/metacritical/scmbag"]
+    [:blockquote {:class "project-quote"}
+     [:p {:class "job-heading"} "SCMBag (A Bag of Git SCM Shortcuts in scheme.)"]
+     [:p {:class "job-desc"} "github.com/metacritical/scmbag"]]
 
-    [:p {:class "job-heading"} "Mudmonk (Telnet Based Ruby Tuts in MUD Style."]
-    [:p {:class "job-desc"} "github.com/metacritical/mudmonk"]
+    [:blockquote {:class "project-quote"}
+     [:p {:class "job-heading"} "Mudmonk (Telnet Based Ruby Tuts in MUD Style."]
+     [:p {:class "job-desc"} "github.com/metacritical/mudmonk"]]
 
-    [:p {:class "job-heading"} "CLJCV (This resume itself is written in clojure/script)."]
-    [:p {:class "job-desc"} "github.com/metacritical/cljscv"]
+    [:blockquote {:class "project-quote"}
+     [:p {:class "job-heading"} "CLJCV (This resume itself is written in clojure/script)."]
+     [:p {:class "job-desc"} "github.com/metacritical/cljscv"]]
 
 ]]]
   
@@ -134,4 +147,8 @@
     [:a {:href "#"}
      [:p {:class "social-media"} "+91-9726519157"]]]]
  
-  [:br {:style "clear:both"}]]
+  [:br {:style "clear:both"}]
+
+ [:footer "Designed by Pankaj Doharey"]
+
+]

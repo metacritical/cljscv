@@ -17,7 +17,7 @@ body {
   overflow: hidden;
   padding: 10px 10px;
   border-bottom: 8px #63b132 solid;
-  background: linear-gradient(to right, #2452a1,  #0f2242);
+  background: linear-gradient(to right, #8a319c,  #520571);
 }
 
 .header h2.logo {
@@ -92,9 +92,9 @@ h4 {
 
 .timeline p {
   display: inline-block;
-  font-size: 16px;
-  font-weight: 500;
-  margin-left: 10px;
+  font-size: 0.94em;
+  font-weight: 200;
+  margin: 5px 0px 0px 19px;
   font-family: 'Open Sans', sans-serif;
 }
 .timeline h3 {
@@ -108,21 +108,23 @@ h4 {
 span.period {
   font-size: 17px;
   font-weight: 400;
+  
 }
 
 p.job-heading {
   display: list-item;
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 400;
-  margin: 0 0 5px 19px;
+  margin: 0 0 0 19px;
 }
 
-p.job-desc {
-  width: 95%;
-  margin: 0 0 5px 17px;
-  font-size: 16px;
-  font-weight: 300;
+.description {
+  padding: 10px;
+  background-color: #efefef;
+  margin: 5px 0px 20px 0px;
 }
+
+
 
 .scale {
   font-size: 13px;
@@ -178,6 +180,29 @@ span.fas.fa-adjust {
   font-size: 10px;
   display: inline;
 }
+
+footer {
+    margin-top: 3em;
+    padding-top: 25px;
+    padding-bottom: 4em;
+    background-color: #292d2e;
+    color: #838383;
+    font-size: 13px;
+}
+
+blockquote {
+    background-color: #eee;
+    margin: 0px;
+    padding: 1em 1em;
+    border-left: 3px solid #aaa;
+    font-size: 0.8em;
+}
+
+blockquote.project-quote {
+    padding: 0.5em;
+    margin-bottom: 10px;
+}
+
 
 @media screen and (max-width: 500px) {
   .header {
