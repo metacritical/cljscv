@@ -18,8 +18,14 @@
    [:div {:class "timeline"}
     [:span {:class "fab fa-algolia"}
      [:h3 "Timeline"]]
+
+    [:span {:class "period"} "Apr 2019 - June 2019"]
+    [:div {:class "description"}
+     [:p {:class "job-heading"} "Clojure/Clojurescript Developer @ Cambioscience"]
+     [:p {:class "job-desc"} "Worked as a clojurescript developer for an Edtech firm in Cambridge."]]
+
     
-    [:span {:class "period"} "Jan 2017 - present."]
+    [:span {:class "period"} "Jan 2017 - Mar 2019"]
     [:div {:class "description"}
      [:p {:class "job-heading"} "Independent Ruby/Clojure Developer"]
      [:p {:class "job-desc"} "Worked on Ruby on Rails and Nodejs remote 
@@ -124,6 +130,13 @@
      [:span {:class "fas fa-circle"}]
      [:span {:class "fas fa-circle"}]
      [:span {:class "fas fa-circle"}]
+     [:span {:class "fas fa-adjust"}]]
+    
+    [:div [:p {:class "skill"} "React.js"]
+     [:span {:class "fas fa-circle"}]
+     [:span {:class "fas fa-circle"}]
+     [:span {:class "fas fa-circle"}]
+     [:span {:class "fas fa-circle"}]
      [:span {:class "far fa-circle"}]]]
 
 
@@ -144,8 +157,12 @@
     [:a {:href "https://selfdotsend.com"}
      [:p {:class "social-media"} "selfdotsend.com"]]]
   [:span {:class "fas fa-mobile-alt"}
-    [:a {:href "#"}
-     [:p {:class "social-media"} "+91-9726519157"]]]]
+   [:a {:href "#"}
+    [:p {:class "social-media"} "+44-7916391405"]]]
+  [:h5 "Other Articles on Dev.to"]
+  [:span {:class "fab fa-chrome"}
+    [:a {:href "https://dev.to/metacritical/create-an-opengl-game-in-clojure-clr-mono-net-part1-the-setup-59ai"}
+     [:p {:class "social-media"} "OpenGL articles on Dev.to"]]]]
  
   [:br {:style "clear:both"}]
 

@@ -1,1 +1,1 @@
-clj -m figwheel.main -co "{:main resume.core}" -r
+clj -Sdeps "{:deps {com.bhauman/figwheel-main {:mvn/version \"0.2.3\"}}}}"  -m figwheel.main -co  "{:main resume.core}" -r
