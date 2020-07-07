@@ -20,12 +20,12 @@
      [:h3 "Timeline"]]
 
 
-    [:span {:class "period"} "Sep 2019 - Current"]
+    [:span {:class "period"} "Sep 2020 - Mar 2021"]
     [:div {:class "description"}
-     [:p {:class "job-heading"} "Fullstack Developer @ centerspot.io"]
-     [:p {:class "job-desc"} "Developing a productivity app for developers."]]
+     [:p {:class "job-heading"} "Fullstack Developer @ Bigbinary"]
+     [:p {:class "job-desc"} "Ruby on Rails Development, Electron , React.js Frontend."]]
     
-    [:span {:class "period"} "Apr 2019 - June 2019"]
+    [:span {:class "period"} "Apr 2019 - June 2020"]
     [:div {:class "description"}
      [:p {:class "job-heading"} "Clojure/Clojurescript Developer @ Cambioscience"]
      [:p {:class "job-desc"} "Worked as a clojurescript developer for an Edtech firm in Cambridge."]]
