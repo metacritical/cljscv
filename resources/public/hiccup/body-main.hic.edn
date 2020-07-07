@@ -1,7 +1,7 @@
 [[:div {:id "wrapper"}
   [:div {:class "header"}
    [:h2 {:href "#default", :class "logo"} "Pankaj Doharey"]
-   [:p "Ruby/Go/Clojure Developer."]
+   [:p "Fullstack Developer."]
    [:div {:class "header-right"}
     [:img {:src "/img/avatar.jpg", :alt "Metacritical's profile picture"}]]]]
 
@@ -19,6 +19,12 @@
     [:span {:class "fab fa-algolia"}
      [:h3 "Timeline"]]
 
+
+    [:span {:class "period"} "Sep 2019 - Current"]
+    [:div {:class "description"}
+     [:p {:class "job-heading"} "Fullstack Developer @ centerspot.io"]
+     [:p {:class "job-desc"} "Developing a productivity app for developers."]]
+    
     [:span {:class "period"} "Apr 2019 - June 2019"]
     [:div {:class "description"}
      [:p {:class "job-heading"} "Clojure/Clojurescript Developer @ Cambioscience"]
@@ -108,8 +114,8 @@
      [:span {:class "fas fa-circle"}]
      [:span {:class "fas fa-circle"}]
      [:span {:class "fas fa-circle"}]
-     [:span {:class "fas fa-circle"}]
-     [:span {:class "fas fa-adjust"}]]
+     [:span {:class "far fa-circle"}]
+     [:span {:class "far fa-circle"}]]
 
      [:div [:p {:class "skill"} "Golang"]
       [:span {:class "fas fa-circle"}]
@@ -122,7 +128,7 @@
      [:span {:class "fas fa-circle"}]
      [:span {:class "fas fa-circle"}]
      [:span {:class "fas fa-circle"}]
-     [:span {:class "fas fa-circle"}]
+     [:span {:class "far fa-circle"}]
      [:span {:class "far fa-circle"}]]
 
     [:div [:p {:class "skill"} "Javascript"]
@@ -130,7 +136,7 @@
      [:span {:class "fas fa-circle"}]
      [:span {:class "fas fa-circle"}]
      [:span {:class "fas fa-circle"}]
-     [:span {:class "fas fa-adjust"}]]
+     [:span {:class "far fa-circle"}]]
     
     [:div [:p {:class "skill"} "React.js"]
      [:span {:class "fas fa-circle"}]
@@ -156,9 +162,9 @@
    [:span {:class "fab fa-chrome"}
     [:a {:href "https://selfdotsend.com"}
      [:p {:class "social-media"} "selfdotsend.com"]]]
-  [:span {:class "fas fa-mobile-alt"}
-   [:a {:href "#"}
-    [:p {:class "social-media"} "+44-7916391405"]]]
+  [:span {:class "fab fa-skype"}
+   [:a {:href "@pankajdoharey"}
+    [:p {:class "social-media"} "Skype: pankajdoharey"]]]
   [:h5 "Other Articles on Dev.to"]
   [:span {:class "fab fa-chrome"}
     [:a {:href "https://dev.to/metacritical/create-an-opengl-game-in-clojure-clr-mono-net-part1-the-setup-59ai"}
@@ -166,6 +172,6 @@
  
   [:br {:style "clear:both"}]
 
- [:footer "Designed by Pankaj Doharey"]
+ [:footer "Designed by PD"]
 
 ]
