@@ -19,13 +19,29 @@
     [:span {:class "fab fa-algolia"}
      [:h3 "Timeline"]]
 
+    [:span {:class "period"} "Feb 2022 - Currently Working"]
+     [:div {:class "description"}
+      [:p {:class "job-heading"} "Founder @ ZenDiffusion"]
+      [:p {:class "job-desc"} "Developing a Generative AI product using stable diffusion engine to create subscription based website for easy access to Generative AI engines."]]
+
+
+    [:span {:class "period"} "Apr 2022 - Currently Working"]
+     [:div {:class "description"}
+      [:p {:class "job-heading"} "Fullstack Consultant @ Moduscreate"]
+      [:p {:class "job-desc"} "Ruby On Rails, Javascript, React and Postgresql. Developing financial and customer acquisition products for a large Institutional Bank in USA."]]
+
+    [:span {:class "period"} "May 2021 - Feb 2022"]
+     [:div {:class "description"}
+      [:p {:class "job-heading"} "Blockchain Quant Developer"]
+      [:p {:class "job-desc"} "Worked on Node.js and Python based Machine Learning platform to develop a Auto Trading platform for Cryptocurrencies, employed various Long and short term strategies and market Indicators for the forecast."]]
+
 
     [:span {:class "period"} "Sep 2020 - Mar 2021"]
     [:div {:class "description"}
      [:p {:class "job-heading"} "Fullstack Developer @ Bigbinary"]
-     [:p {:class "job-desc"} "Ruby on Rails Development, Electron , React.js Frontend."]]
+     [:p {:class "job-desc"} "Ruby on Rails Development, Electron , React.js Frontend.  Working for a Gene Therapy Drug Delivery Solution for the biggest pharma clients."]]
     
-    [:span {:class "period"} "Apr 2019 - June 2020"]
+    [:span {:class "period"} "Apr 2019 - June"]
     [:div {:class "description"}
      [:p {:class "job-heading"} "Clojure/Clojurescript Developer @ Cambioscience"]
      [:p {:class "job-desc"} "Worked as a clojurescript developer for an Edtech firm in Cambridge."]]
